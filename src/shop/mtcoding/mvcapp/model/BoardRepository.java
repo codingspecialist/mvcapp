@@ -2,7 +2,6 @@ package shop.mtcoding.mvcapp.model;
 
 import shop.mtcoding.mvcapp.config.DB;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class BoardRepository {

@@ -6,7 +6,7 @@
 <body>
     <h1>게시글 쓰기</h1>
     <hr/>
-    <form action="/board/save.do" method="post">
+    <form action="/board/save.do" method="post" enctype="application/x-www-form-urlencoded">
         <input type="text" name="title" placeholder="Enter title" /><br/>
         <input type="text" name="content" placeholder="Enter content" /><br/>
         <button type="submit">글쓰기완료</button>
